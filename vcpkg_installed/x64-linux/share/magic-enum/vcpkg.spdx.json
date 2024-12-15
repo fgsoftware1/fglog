@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/magic-enum-x64-linux-0.9.7-d3b1e13c-4f46-4191-a19a-48d1ec533b21",
+  "name": "magic-enum:x64-linux@0.9.7 707496d90567ebcfa78d9e83ae80d21b9b98ec8ef630a1caafc3b99d6413c2d0",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-12-09-1005b78fa1bf1dde1a20c2734cba4ea61ca94d9a"
+    ],
+    "created": "2024-12-15T10:28:41Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "magic-enum",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "0.9.7",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@dd998971fdcd05406e77a56d26e798393c918740",
+      "homepage": "https://github.com/Neargye/magic_enum",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Header-only C++17 library provides static reflection for enums, work with any enum type without any macro or boilerplate code.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "magic-enum:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "707496d90567ebcfa78d9e83ae80d21b9b98ec8ef630a1caafc3b99d6413c2d0",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "Neargye/magic_enum",
+      "downloadLocation": "git+https://github.com/Neargye/magic_enum@v0.9.7",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "8b61c621ff2a6981b4ff89f7df577091ffc9382d443c061db612fb61822dbf6ef8aba69ea35d1c435dcffbd7434cb4ccc5d12bbe2deba1cf0a5316c979ee6a4b"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/baby/.cache/vcpkg/registries/git-trees/dd998971fdcd05406e77a56d26e798393c918740/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0e393cfb079ca705a92850662f9d2823a3dd0486f71fbebe6c164f897c28144e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/baby/.cache/vcpkg/registries/git-trees/dd998971fdcd05406e77a56d26e798393c918740/usage",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8412be04997c0b643eac628f8b896e06770f793f6849e708741e319a86d47158"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/baby/.cache/vcpkg/registries/git-trees/dd998971fdcd05406e77a56d26e798393c918740/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9b55ca096277fa55ce7d6fdfbee2ed215e78848a2cfff530ac950a09c3b4ed33"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
